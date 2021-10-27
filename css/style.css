@@ -1,0 +1,51 @@
+:root {
+    --basic-black:#000000;
+    --basic-gray: #727272;
+    --basic-blue: #34547A;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 79px;
+    color: var(--basic-gray);
+}
+
+.section {
+    font-weight: 500;
+    font-size: 32 px;
+    line-height: 37px;
+    color: var(--basic-black);
+
+}
+
+/* -------header---------- */
+.main-header {
+    background-color: #EEEFF1;
+}
+.main-logo {
+    font-family: 'Revalia', cursive;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+    text-decoration: dashed;
+}
+
+.main-nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* -------!header------ */
+
+/* --------promo-------- */
+.promo-title {
+    font-size: 48px;
+    line-height: 79px;
+}

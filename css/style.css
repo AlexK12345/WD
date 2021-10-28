@@ -1,7 +1,13 @@
 :root {
     --basic-black:#000000;
     --basic-gray: #727272;
+    --light-gray: #EEEFF1;
     --basic-blue: #34547A;
+    --basic-white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 html {
@@ -9,6 +15,10 @@ html {
     font-size: 16px;
     line-height: 79px;
     color: var(--basic-gray);
+}
+
+body {
+    margin: 0;
 }
 
 .section {
@@ -21,13 +31,13 @@ html {
 
 /* -------header---------- */
 .main-header {
-    background-color: #EEEFF1;
+    background-color: var(--light-gray);
 }
 .main-logo {
     font-family: 'Revalia', cursive;
     font-size: 48px;
     line-height: 60px;
-    color: #34547A;
+    color: var(--basic-blue);
     text-decoration: dashed;
 }
 
@@ -39,13 +49,45 @@ html {
 
 .main-nav-link {
     text-decoration: none;
-    color: #000000;
+    color: var(--basic-black);
 }
 
 /* -------!header------ */
 
 /* --------promo-------- */
+.promo {
+    background-color: var(--light-gray);
+}
 .promo-title {
     font-size: 48px;
     line-height: 79px;
+    color: var(--basic-black);
+}
+.contact-button {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--basic-white);
+}
+/*-----------!promo---------*/
+
+/*-----------myadvantages--------*/
+.my-advantages {
+    background-color: var(--basic-blue);
+}
+.project-quantity {
+    font-size: 21px;
+    line-height: 25px;
+}
+/*-----------!myadvantages---------*/
+
+/*-----------workprocess-----------*/
+.work-process {
+    background-color: var(--light-gray);
+}
+.orderwebsite {
+    background-color: var(--light-gray);
+}
+.contact-info {
+    background-color: var(--basic-blue);
 }

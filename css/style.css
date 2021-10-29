@@ -75,19 +75,57 @@ body {
 .my-advantages {
     background-color: var(--basic-blue);
 }
+.project-list {
+    color: var(--basic-white);
+}
 .project-quantity {
     font-size: 21px;
     line-height: 25px;
 }
+.advantage1 {
+    list-style-type: none;
+}
 /*-----------!myadvantages---------*/
+
+/*------------myskills-------------*/
+.my-skills {
+    list-style-type: none;
+}
+/*-----------!myskills------------*/
 
 /*-----------workprocess-----------*/
 .work-process {
     background-color: var(--light-gray);
 }
+/*-----------!workprocess---------*/
+
+/*-----------galary---------------*/
+.galary {
+    list-style-type: none;
+}
+/*-----------!galary--------------*/
+
+/*-----------ourclients-----------*/
+.ourclients {
+    list-style-type: none;
+}
+/*-----------!ourclients----------*/
+
+/*-----------orderform------------*/
 .orderwebsite {
     background-color: var(--light-gray);
 }
+/*-----------!orderform-----------*/
+
+/*-----------footer---------------*/
 .contact-info {
     background-color: var(--basic-blue);
+    color: var(--basic-white);
 }
+.sm-icon {
+    list-style-type: none;
+}
+/*-----------!footer--------------*/
+
+
+
